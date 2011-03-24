@@ -18,4 +18,14 @@
     <connection>scm:git:git://github.com/ikikko/ikikko-archetype-quickstart.git</connection>
     <developerConnection>scm:git:git://github.com/ikikko/ikikko-archetype-quickstart.git</developerConnection>
   </scm>
+  <distributionManagement>
+  	<repository>
+  		<id>repo</id>
+  		<url>http://github.com/ikikko/maven-repo/raw/master/release</url>
+  	</repository>
+  	<snapshotRepository>
+  		<id>snapshot-repo</id>
+  		<url>http://github.com/ikikko/maven-repo/raw/master/snapshots</url>
+  	</snapshotRepository>
+  </distributionManagement>
 </project>
